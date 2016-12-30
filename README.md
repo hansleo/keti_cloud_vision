@@ -9,7 +9,7 @@
 설치된 cloud-vision/python/ 내에 필요한 기능 폴더의 requirements.txt를 사용
 <pre><code>sudo pip install -r cloud-vision/python/text/requirements.txt</pre></code>
 
-3.nltk 설치 및 필요 nltk 자료 다운:
+3. nltk 설치 및 필요 nltk 자료 다운:
 <pre><code>$ python 
  > import nltk 
  > nltk.download('stopwords')</pre></code>
