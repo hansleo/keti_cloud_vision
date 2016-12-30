@@ -16,5 +16,5 @@
  > nltk.download('stopwords')</code></pre>
 
 4. 환경변수설정:
-google cloud vision API에서 받을 수 있는 json 파일의 서비스 키 파일로 설정
-</pre><code>export GOOGLE_APPLICATION_CREDENTIALS=cloude-vision/</code></pre>
+google cloud vision API에서 받을 수 있는 json 파일의 서비스 키 파일로 설정.
+</pre><code>export GOOGLE_APPLICATION_CREDENTIALS=cloude-vision/*.json</code></pre>
