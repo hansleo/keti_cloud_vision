@@ -1,6 +1,6 @@
 # keti_cloud_vision
 
-* 파이썬으로 Google Cloud Vision API 사용하기
+* 파이썬으로 Google Cloud Vision API / text 사용하기
 
 1. API 설치:
 <pre><code>git clone https://github.com/GoogleCloudPlatform/cloud-vision.git</pre></code>
