@@ -10,6 +10,4 @@
 <pre><code>sudo pip install -r cloud-vision/python/text/requirements.txt</pre></code>
 
 3.nltk 설치 및 필요 nltk 자료 다운:
-<pre><code>$ python
-> import nltk
-> nltk.download('stopwords')</pre></code>
+<pre><code>$ python > import nltk > nltk.download('stopwords')</pre></code>
