@@ -16,4 +16,9 @@ python -m nltk.downloader punkt</code></pre>
 
 4. 환경변수설정:
 google cloud vision API에서 받을 수 있는 json 파일의 서비스 키 파일로 설정.
-</pre><code>export GOOGLE_APPLICATION_CREDENTIALS=cloude-vision/*.json</code></pre>
+<pre><code>export GOOGLE_APPLICATION_CREDENTIALS=cloude-vision/*.json</code></pre>
+
+5. redis 설치:
+<pre><code>sudo add-apt-repository -y ppa:rwky/redis
+sudo apt-get update
+sudo apt-get install redis-server</code></pre>
