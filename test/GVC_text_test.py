@@ -1,10 +1,11 @@
 #Author: Lee, HANDONG(hansleo)
 
 import sys
+sys.path.insert(0, '/directory/of/cloud-vision/python/text')
 import os
 import textindex
 
-sys.path.insert(0, '/directory/of/cloud-vision/python/text')
+
 img_dir = '/directory/of/images/'
 
 def find_images(img_dir):
