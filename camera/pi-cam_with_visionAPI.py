@@ -2,22 +2,22 @@
 #-*-coding:utf8-*-
 
 import sys, os
-sys.path.insert(0, '/home/leo/cloud-vision/python/text')
+sys.path.insert(0, '/directory/of/cloud-vision/python/text')
 import textindex
 import time
 import picamera
 
-pic = '/home/leo/camera/default.jpg'
+pic = '/default/directory/default.jpg'
 
 if len(sys.argv) is 1:
 	print '*****'
 	print 'A picture has default file name in default path.'
-	print ': /home/leo/camera/default.jpg'
+	print ':'+pic
 	print '*****'
 
 elif len(sys.argv) > 2:
 	print 'Insert only the file name with directory where you want to save a picture in'
-	print 'default : /home/leo/camera/default.jpg'
+	print 'default :'+pic
 
 else:
 	pic = sys.argv[1]
