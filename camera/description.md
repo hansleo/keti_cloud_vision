@@ -1,4 +1,4 @@
-# Raspberry-pi camera on python
+# Raspberry-pi camera with Vision API on python
   
 1. camera module 설정
  - ''/boot/config.txt'' 에서 ''start_x=1''로 수정하고 재부팅
